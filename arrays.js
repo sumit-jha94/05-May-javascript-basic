@@ -114,3 +114,68 @@ let newNum = numSlice.slice(2, 6)
 console.log(newNum)
 
 
+// Loop In ARRAYS
+
+let numLoop = [3, 5, 7, 8]
+
+// using FOR Loop
+for(let i = 0; i<numLoop.length; i++) {
+    console.log(numLoop[i])
+}
+
+numLoop.forEach((element) =>{
+    console.log(element*element)
+})
+
+// Array.from
+
+let name = "sumit"
+let arr = Array.from(name)
+console.log(arr, typeof(arr))
+console.log(typeof(name))
+
+// for...of
+
+for (let i of numLoop){
+    console.log(i)
+}
+
+// for..in
+
+for(let i in numLoop){
+    // console.log(i) 
+    // Gives the key
+    console.log(numLoop[i])
+    // Gives to number
+}
+
+// MAP 
+
+let arr2 = [12, 14, 15, 11]
+
+let c = arr2.map((value)=>{
+    
+    return value + 1
+})
+
+console.log(c)
+
+// Map is used when we have to create a new element, while forEach is used when we have to do some operations.
+
+// FILTER METHOD
+
+let arr3 = [11, 9, 20, 22, 33]
+let z = arr3.filter((d)=>{
+    return d>12
+})
+
+console.log(z)
+
+// Reduce
+
+let arr4 = [1, 13, 12, 9, 7, 6]
+
+let newArr3 = arr3.reduce((h1, h2)=>{
+    return h1 * h2
+})
+console.log(newArr3)
