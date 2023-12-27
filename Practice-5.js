@@ -48,5 +48,7 @@ let n = arr.reduce((x1, x2)=>{
     })
          console.log(n)
 
+// Question - 6
+
 
 
