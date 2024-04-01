@@ -16,7 +16,7 @@ console.log( "Exponential a ** b = ", a**b);
 
 // console.log( "Increment a ++ = ", a++);
 // ++a wil add increase the value first and then print a
-// a++ will print a and then increase the value.
+// a++ will print a and then increase the value. Next time we have value as a+1
 console.log("value of a", a)
 console.log( "Increment ++a = ", ++a); 45
 
