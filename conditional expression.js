@@ -36,6 +36,6 @@ if (b<10) {
     alert("Welcome To Your Lisecense")
 }
 
-// using Ternary Operator
+// using Ternary Operator to explain
 
 console.log( "You Can", (b>18 ? "You Can Drive" : "You Cannot Drive"))
