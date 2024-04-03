@@ -63,23 +63,23 @@
 // Write a JS code to print a star using for loop
 
 
-function printStar() {
+// function printStar() {
   
-  // Number of rows or height of the star
-  const n = parseInt(prompt("Enter the Number"));
+//   // Number of rows or height of the star
+//   const n = parseInt(prompt("Enter the Number"));
 
-  for (let i = 0; i < n; i++) {
-    let star = '';
+//   for (let i = 0; i < n; i++) {
+//     let star = '';
 
-    for (let j = 0; j <= i; j++) {
-      star += '*';
-    }
+//     for (let j = 0; j <= i; j++) {
+//       star += '*';
+//     }
 
-    console.log(star);
-  }
-}
+//     console.log(star);
+//   }
+// }
 
-printStar();
+// printStar();
 
   
 
