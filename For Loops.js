@@ -17,6 +17,8 @@
 // }
 // console.log( "sum is" + sum)
 
+
+
 // FOR-In Loop
 
 // let obj = {
@@ -58,6 +60,7 @@
 //   const result = power();
 //   console.log(result);
   
+
 
 // Question - 2
 // Write a JS code to print a star using for loop
