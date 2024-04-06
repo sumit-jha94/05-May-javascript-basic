@@ -9,7 +9,7 @@ console.log("type of 1 is", typeof(marks[1]))
 console.log(marks[2])
 console.log("type of 2 is", typeof(marks[2]))
 console.log(marks[3])
-// this will be undefined as we donot have the value.
+// this will be undefined as we do not have the value.
 
 // Changing the values
 marks[0] = true
