@@ -17,7 +17,7 @@ console.log(pro.slice(2,4))
 // Here last character has not been included.
 console.log(pro.slice(2))
 
-// Replace
+// Replace 
 
 let name = "Harry Bhai"
 
