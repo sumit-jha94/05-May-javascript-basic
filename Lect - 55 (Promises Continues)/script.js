@@ -26,7 +26,7 @@ p1.then((value)=>{
 
 // console.log(p2)
 
-// Catching the error
+// Catching the error 
 
 p2.catch((error)=>{
     console.log("Some Error")
